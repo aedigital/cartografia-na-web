@@ -1,53 +1,43 @@
 # Curso: Cartografia na Web
 
-## Índice
 
-* [Introdução](#introducao)
-* Projetos de referência
-  * Infoamazonia
-  * Ekuatorial
-  * Oxpeckers
-* Fontes de dados
-  * *IBGE e outras fontes*
-* Ferramentas
-  * QGIS
-  * TileMill
-  * CartoDB
-  * Mapbox Studio
-  * JEO
-* Formatos
-  * Shapefiles
-  * GeoJSON
-  * KML
-  * CSV
-* Projeto prático 1
-* Projeto prático 2
+### Formatos de dados
 
-### Introdução
+* [Shapefile](en.wikipedia.org/wiki/Shapefile)
+* [GeoJSON](en.wikipedia.org/wiki/GeoJSON)
+* [CSV](en.wikipedia.org/wiki/Comma-separated_values)
 
-*(escrever uma introdução)*
+### Ferramentas
 
-### Fontes de dados
-
-O IBGE oferece fronteiras entre bairros, municípios e estados:
+* [QGIS]
+* [CartoDB]
+* [TileMill]
+* [Mapbox Studio]
+* [JEO]
+* [JEO Community]
 
 
+### Projetos de referência
+
+* [Infoamazonia]
+* [Política do Desmatamento]
+* [Viságuas]
+* [Ekuatorial]
+* [Oxpeckers]
+* [Landquest]
 
 ### Exercícios
-
-
 
 ### Mapa de pontos no CartoDB
 
 Um mapa de pontos no CartoDB, representando as cidades onde houve libertação de trabalhadores escravos no Brasil.
 
-#### Instruções
 
 Subindo dados no [CartoDB]:
 
 * [Crie uma conta](http://cartodb.com/signup) no [CartoDB]
 * Vá para a vista de tabelas em *"Your datasets"*
-* Envie o arquivo de [trabalhadores libertados por cidade], sem habilitar o reconhecimento automático de tipos do CartoDB
+* Envie o arquivo de [trabalhadores libertados por cidade]
 * Acerte o nome da tabela para algo como *trabalhadores_libertados-2003_2012*
 * Clique *Map view* para ver todos os pontos sobre um mapa
 
@@ -55,16 +45,50 @@ Criando um mapa:
 
 * Clique em *"Visualize"* e dê um nome para o mapa, por exemplo: *Trabalhadores libertados entre 2003 e 2012, por município*
 
-
 ### Mapa cloropédico no CartoDB
 
+Um mapa cloropédico de libertação de trabalhadores escravos por estados.
+
+* Vá para a vista de tabelas em *"Your datasets"*
+* Envie o arquivo de [trabalhadores libertados por estado], sem habilitar o reconhecimento automático de tipos do CartoDB
+* Envie o arquivo de [fronteiras dos estados]
+* Faça a junção das tabelas, criando uma terceira
+* Configure o estilo do mapa
 
 
-## Referências
 
+### Publicando com o JEO
+
+* Comece um novo site no [JEO Community]
+* Crie novas camadas com os mapas do CartoDB
+* Adicione as camadas base da Mapbox:
+  * `infoamazonia.map-xs56h3ri`
+  * `infoamazonia.amazonia_cows_noInteract_4-6,infoamazonia.amazonia-cows`
+
+* Em appearence, escolha o mapa inicial e salve
+* Crie um mapa para cada camada, e um mapa com as duas camadas
+* Crie os posts que aparecerão sobre o mapa
 
 
 <!-- LINKS  -->
 
+<!-- data  -->
+[fronteiras dos estados]: data/brasil-estados-fronteiras.csv
 [Trabalhadores libertados por cidade]: data/brasil-cidades-trabalhadores_libertados-2003_2012.csv
+[Trabalhadores libertados por estado]: data/brasil-estados-trabalhadores_libertados-2003_2012.csv
+
+<!-- tools  -->
 [CartoDB]: www.cartodb.com
+[QGIS]: www.qgis.org
+[TileMill]: www.mapbox.com/tilemill
+[Mapbox Studio]: www.mapbox.com/mapbox-studio
+[JEO]: https://cardume.github.io/jeo
+[JEO Community]: jeo.cardume.art.br/community
+
+<!-- projects  -->
+[Infoamazonia]: www.infoamazonia.org
+[Política do Desmatamento]: desmatamento.infoamazonia.org
+[Viságuas]: visaguas.infoamazonia.org
+[Ekuatorial]: ekuatorial.com
+[Oxpeckers]: oxpeckers.org
+[Landquest]: http://landquest.internewskenya.org/
