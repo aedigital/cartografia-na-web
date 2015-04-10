@@ -3,9 +3,9 @@
 
 ### Formatos de dados
 
-* [Shapefile](en.wikipedia.org/wiki/Shapefile)
-* [GeoJSON](en.wikipedia.org/wiki/GeoJSON)
-* [CSV](en.wikipedia.org/wiki/Comma-separated_values)
+* [Shapefile](http://en.wikipedia.org/wiki/Shapefile)
+* [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON)
+* [CSV](http://en.wikipedia.org/wiki/Comma-separated_values)
 
 ### Ferramentas
 
@@ -35,7 +35,7 @@ Um mapa de pontos no CartoDB, representando as cidades onde houve libertação d
 
 Subindo dados no [CartoDB]:
 
-* [Crie uma conta](http://cartodb.com/signup) no [CartoDB]
+* [Crie uma conta](http://http://cartodb.com/signup) no [CartoDB]
 * Vá para a vista de tabelas em *"Your datasets"*
 * Envie o arquivo de [trabalhadores libertados por cidade]
 * Acerte o nome da tabela para algo como *trabalhadores_libertados-2003_2012*
@@ -78,17 +78,17 @@ Um mapa cloropédico de libertação de trabalhadores escravos por estados.
 [Trabalhadores libertados por estado]: data/brasil-estados-trabalhadores_libertados-2003_2012.csv
 
 <!-- tools  -->
-[CartoDB]: www.cartodb.com
-[QGIS]: www.qgis.org
-[TileMill]: www.mapbox.com/tilemill
-[Mapbox Studio]: www.mapbox.com/mapbox-studio
+[CartoDB]: http://www.cartodb.com
+[QGIS]: http://www.qgis.org
+[TileMill]: http://www.mapbox.com/tilemill
+[Mapbox Studio]: http://www.mapbox.com/mapbox-studio
 [JEO]: https://cardume.github.io/jeo
-[JEO Community]: jeo.cardume.art.br/community
+[JEO Community]: http://jeo.cardume.art.br/community
 
 <!-- projects  -->
-[Infoamazonia]: www.infoamazonia.org
-[Política do Desmatamento]: desmatamento.infoamazonia.org
-[Viságuas]: visaguas.infoamazonia.org
-[Ekuatorial]: ekuatorial.com
-[Oxpeckers]: oxpeckers.org
+[Infoamazonia]: http://www.infoamazonia.org
+[Política do Desmatamento]: http://desmatamento.infoamazonia.org
+[Viságuas]: http://visaguas.infoamazonia.org
+[Ekuatorial]: http://ekuatorial.com
+[Oxpeckers]: http://oxpeckers.org
 [Landquest]: http://landquest.internewskenya.org/
